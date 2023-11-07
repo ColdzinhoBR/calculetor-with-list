@@ -1,0 +1,57 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #bdc93a;
+  background-image:url(foxy.jpg);
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+/* Estilo para os títulos h1 */
+h1 {
+  background-color: #3498db;
+  color: #18e5c6;
+  padding: 10px;
+}
+
+/* Estilo para a seção de entrada de itens */
+#item {
+  margin: 10px;
+  padding: 5px;
+}
+
+/* Estilo para os botões */
+button {
+  background-color: #3498db;
+  color: #fff;
+  padding: 5px 10px;
+  border: none;
+  cursor: pointer;
+  margin: 5px;
+}
+
+/* Estilo para os botões de operações */
+button:nth-child(2),
+button:nth-child(3),
+button:nth-child(4) {
+  background-color: #e74c3c;
+}
+
+/* Estilo para a seção de resultados */
+span {
+  font-weight: bold;
+  color: #409ede;
+}
+
+/* Estilo para a lista de itens */
+#itemList {
+  list-style: none;
+  padding: 0;
+}
+
+#itemList li {
+  background-color: #308ace;
+  border: 1px solid #ccc;
+  padding: 5px 10px;
+  margin: 5px;
+}
